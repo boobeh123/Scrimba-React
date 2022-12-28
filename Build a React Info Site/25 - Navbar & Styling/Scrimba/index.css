@@ -1,0 +1,39 @@
+/******************************************************
+* Base Styles
+*******************************************************/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter';
+    font-size: 1rem;
+}
+/******************************************************
+* Header
+*******************************************************/
+.header {
+    padding: 1rem;
+    background-color: #21222A;
+    border-bottom: 1px solid #33373E;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-text {
+    color: #DEEBF8;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo-img {
+    max-width: 30px;
+}
+.logo-text {
+    color: #00D8FF;
+    font-size: 1.5rem;
+    padding-left: 0.25rem;
+}
