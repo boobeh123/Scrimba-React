@@ -8,7 +8,7 @@ Check the Figma file for the design specifics.
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Header from './components/Header'
+import App from './App'
 // import './index.css'
 
 const root = document.querySelector('#root')
