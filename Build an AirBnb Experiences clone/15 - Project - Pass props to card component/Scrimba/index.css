@@ -1,0 +1,127 @@
+/******************************************************
+* Base Styles
+*******************************************************/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    font-size: 1rem;
+}
+/******************************************************
+* Header
+*******************************************************/
+.header {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.logo-img {
+    max-height: 30px;
+}
+
+/******************************************************
+* MainContent
+*******************************************************/
+.hero-img {
+    display: block;
+    margin: 2rem auto 0 auto;
+    max-width: 296px;
+    max-height: 132px;
+}
+.hero-text {
+    margin: 0 2rem;
+}
+.hero-text h1 {
+    color: #000000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 32px 0 16px 0;
+}
+.hero-text p {
+    color: #222222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    margin: 0;
+}
+/******************************************************
+* Card
+*******************************************************/
+.card-container {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.img-container {
+    margin: 49px 0 9px 0;
+    position: relative;
+}
+.img-container span {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    z-index: 2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 11px;
+    color: #222222;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    padding:10px;
+}
+.img-container img {
+    z-index: 1;
+    border-radius: 9px;
+}
+.text-container > div {
+    display: flex;
+    align-items: center;
+}
+.text-container img {
+    padding-right: 2px;
+}
+.text-container span {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 11px;
+    color: #222222;
+    vertical-align: center;
+    padding-right: 2px;
+}
+.text-container span + span {
+    color: #918E9B;
+}
+.text-container p {
+    margin: 8px 0 0 0;
+}
+.text-container p + p {
+    margin-bottom: 30px;
+}
+
+/******************************************************
+* Media queries
+*******************************************************/
+@media screen and (min-device-width: 565px) {
+    .hero-img {
+        max-width: 396px;
+        max-height: 232px;
+    }
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+    .hero-text p {
+        width: 320px;
+    }
+}
